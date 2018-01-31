@@ -1,0 +1,3 @@
+[submodule "kottans_frontend"]
+	path = kottans_frontend
+	url = git@github.com:Masmik/kottans_frontend.git
