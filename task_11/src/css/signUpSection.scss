@@ -2,7 +2,7 @@
 .signUpSection {
     margin-top: 76px;
     margin-bottom: 74px;
-    margin-left: 129px;
+    margin-left: 11.3%;
 
     letter-spacing: -.1px;
 
@@ -140,7 +140,7 @@
         display: block;
 
         margin-top: 141px;
-        margin-left: 278px;
+        margin-left: 27.5%;
 
         text-align: left;
         .termsConditionsLabel {
@@ -157,11 +157,15 @@
             }
         }
         .button {
+            background-color: #f7f7f9;
             min-width: 170px;
             margin-top: -18px;
             margin-left: 24px;
 
             line-height: 47px;
+            &:hover{
+                background-color: $button-hover-bgColor;
+            }
         }
     }
 }
