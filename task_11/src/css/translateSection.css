@@ -1,0 +1,74 @@
+.translateSection {
+  text-align: center; }
+  .translateSection .translateHeader {
+    display: inline-block;
+    margin-top: 105px;
+    padding-bottom: 12px;
+    letter-spacing: .171em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #cdcde5;
+    font-size: 1.2em; }
+  .translateSection .translateItems {
+    display: block;
+    margin-top: 72px; }
+    .translateSection .translateItems .translateItem {
+      position: relative;
+      display: inline-block;
+      box-sizing: border-box;
+      width: 24.8%;
+      height: 202px;
+      margin-left: 2%;
+      cursor: pointer;
+      border: 6px solid transparent;
+      border-radius: 3%; }
+      .translateSection .translateItems .translateItem:before {
+        position: absolute;
+        top: -6px;
+        right: -6px;
+        bottom: -6px;
+        left: -6px;
+        display: block;
+        content: '';
+        border: 1px solid #cdcde5;
+        border-radius: 5px; }
+      .translateSection .translateItems .translateItem .imageItem {
+        display: block;
+        width: 95px;
+        height: 105px;
+        margin-top: 7px;
+        margin-left: 89px; }
+        .translateSection .translateItems .translateItem .imageItem.websiteImageItem {
+          background: url(../img/website.png) no-repeat;
+          background-size: contain; }
+        .translateSection .translateItems .translateItem .imageItem.documentsImageItem {
+          background: url(../img/documents.png) no-repeat;
+          background-size: contain; }
+        .translateSection .translateItems .translateItem .imageItem.socialAccountImageItem {
+          background: url(../img/social_account.png) no-repeat;
+          background-size: contain; }
+      .translateSection .translateItems .translateItem .itemDescription {
+        margin-top: 18px;
+        margin-left: -1px;
+        letter-spacing: .04em;
+        text-transform: capitalize; }
+      .translateSection .translateItems .translateItem:hover {
+        position: relative;
+        border: 6px solid #76a7e1; }
+        .translateSection .translateItems .translateItem:hover:after {
+          position: absolute;
+          z-index: 2;
+          top: -1.1em;
+          right: -.9em;
+          width: 2em;
+          height: 2em;
+          content: '\f00c';
+          text-align: center;
+          color: #ffffff;
+          border-radius: 50%;
+          background: #76a7e1;
+          font-family: FontAwesome;
+          font-size: 100%;
+          font-weight: 900;
+          line-height: 2em; }
+
+/*# sourceMappingURL=translateSection.css.map */

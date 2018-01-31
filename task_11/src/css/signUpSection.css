@@ -1,0 +1,132 @@
+.signUpSection {
+  margin-top: 76px;
+  margin-bottom: 74px;
+  margin-left: 129px;
+  letter-spacing: -.1px; }
+  .signUpSection .signIn {
+    margin-top: 56px; }
+    .signUpSection .signIn .signIn_link {
+      color: inherit; }
+  .signUpSection .inputGroup {
+    display: block;
+    margin-top: 52px; }
+    .signUpSection .inputGroup.cardInfoBlock {
+      margin-top: 78px; }
+    .signUpSection .inputGroup .inputItem {
+      display: inline-block;
+      margin-right: 28px;
+      margin-bottom: -17px; }
+      .signUpSection .inputGroup .inputItem .payBlockLabel {
+        display: block;
+        margin-bottom: 9px;
+        margin-left: 12px;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 800; }
+      .signUpSection .inputGroup .inputItem .payBlockInput {
+        position: relative;
+        box-sizing: border-box;
+        width: 302px;
+        padding-top: 14px;
+        padding-bottom: 15px;
+        padding-left: 17px;
+        letter-spacing: .4px;
+        color: #6e768f;
+        border: 1px solid #d9d8de;
+        border-radius: 5px;
+        outline: none;
+        font-size: 14px; }
+        .signUpSection .inputGroup .inputItem .payBlockInput:valid {
+          background-image: url(../img/valid.png);
+          background-repeat: no-repeat;
+          background-position: 95% 49%;
+          background-size: 24px; }
+        .signUpSection .inputGroup .inputItem .payBlockInput:invalid {
+          background-image: url(../img/invalid.png);
+          background-repeat: no-repeat;
+          background-position: 95% 49%;
+          background-size: 24px; }
+        .signUpSection .inputGroup .inputItem .payBlockInput.cardNumberInput {
+          width: 381px;
+          background-image: url(../img/visaIcon.png);
+          background-repeat: no-repeat;
+          background-position: 97% 46%;
+          background-size: 52px; }
+        .signUpSection .inputGroup .inputItem .payBlockInput.exDateInput {
+          width: 171px;
+          padding-left: 50px;
+          letter-spacing: -.7px;
+          font-size: 12px; }
+        .signUpSection .inputGroup .inputItem .payBlockInput.codeInput {
+          width: 104px; }
+  .signUpSection .payMethodBlock {
+    display: flex;
+    margin-top: 63px;
+    justify-content: flex-start; }
+    .signUpSection .payMethodBlock .payMethodItem {
+      margin-right: 34px; }
+      .signUpSection .payMethodBlock .payMethodItem .payBlockLabel {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        width: 220px;
+        padding: 28px 55px 28px 56px;
+        border: 6px solid transparent; }
+        .signUpSection .payMethodBlock .payMethodItem .payBlockLabel:before {
+          position: absolute;
+          top: -6px;
+          right: -6px;
+          bottom: -6px;
+          left: -6px;
+          display: block;
+          content: '';
+          border: 1px solid #cdcde5;
+          border-radius: 5px; }
+        .signUpSection .payMethodBlock .payMethodItem .payBlockLabel:hover {
+          border: 6px solid #76a7e1;
+          border-radius: 5px; }
+          .signUpSection .payMethodBlock .payMethodItem .payBlockLabel:hover:after {
+            position: absolute;
+            z-index: 2;
+            top: -1.1em;
+            right: -.9em;
+            width: 2em;
+            height: 2em;
+            content: '\f00c';
+            text-align: center;
+            color: #ffffff;
+            border-radius: 50%;
+            background: #76a7e1;
+            font-family: FontAwesome;
+            font-size: 100%;
+            font-weight: 900;
+            line-height: 2em; }
+        .signUpSection .payMethodBlock .payMethodItem .payBlockLabel .payLogo {
+          height: 25px;
+          padding-top: 4px; }
+          .signUpSection .payMethodBlock .payMethodItem .payBlockLabel .payLogo.paypalLogo {
+            height: 20px;
+            padding-top: 9px;
+            padding-left: 11px; }
+          .signUpSection .payMethodBlock .payMethodItem .payBlockLabel .payLogo.amazonLogo {
+            height: 20px;
+            margin-left: -3px;
+            padding-top: 10px; }
+  .signUpSection .termsConditionsBlock {
+    display: block;
+    margin-top: 141px;
+    margin-left: 278px;
+    text-align: left; }
+    .signUpSection .termsConditionsBlock .termsConditionsLabel {
+      margin-right: 18px;
+      margin-left: 10px;
+      font-size: 12px;
+      font-weight: 400; }
+    .signUpSection .termsConditionsBlock .button {
+      min-width: 170px;
+      margin-top: -18px;
+      margin-left: 24px;
+      line-height: 47px; }
+
+/*# sourceMappingURL=signUpSection.css.map */
