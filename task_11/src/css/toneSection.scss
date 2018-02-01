@@ -2,32 +2,29 @@
     width: 36%;
     margin-top: 61px;
     margin-left: 11.3%;
+}
+.toneTypeContainer {
+    margin-top: 47px;
+}
+.toneTypeBlock {
+    margin-bottom: 22px;
+}
+.toneTypeBtnLabel {
+    display: inline-block;
 
-    .toneTypeContainer {
-        margin-top: 47px;
-        .toneTypeBlock {
-            margin-bottom: 22px;
+    min-width: 140px;
+    padding: 22px 11px 20px 73px;
 
+    letter-spacing: -.1px;
+    text-transform: capitalize;
 
-            .toneTypeBtnLabel {
-                display: inline-block;
+    font-size: 16px;
 
-                min-width: 140px;
-                padding: 22px 11px 20px 73px;
+    .fa {
+        position: absolute;
+        top: 20px;
+        left: 33px;
 
-                letter-spacing: -.1px;
-                text-transform: capitalize;
-
-                font-size: 16px;
-
-                .fa {
-                    position: absolute;
-                    top: 20px;
-                    left: 33px;
-
-                    font-size: 20px;
-                }
-            }
-        }
+        font-size: 20px;
     }
 }

@@ -1,15 +1,7 @@
-@import "variables.scss";
+@import 'variables.scss';
 .uploadSection {
     margin-top: 109px;
-    .uploadHeader {
-        margin-left: 11.3%;
-        .uploadHeader__formats {
-            text-transform: capitalize;
 
-            font-size: .6em;
-            font-weight: 300;
-        }
-    }
     .uploadFileBtn {
         display: none;
     }
@@ -38,45 +30,58 @@
             font-size: 18px;
         }
     }
+}
 
-    .uploadFiles {
-        width: 79.21%;
-        margin: 39px 11.3%;
+.uploadHeader {
+    margin-left: 11.3%;
+    .uploadHeader__formats {
+        text-transform: capitalize;
 
-        text-align: left;
+        font-size: .6em;
+        font-weight: 300;
+    }
+}
 
-        border: 1px solid #cdcde5;
-        border-radius: 5px;
+.uploadFiles {
+    width: 79.21%;
+    margin: 39px 11.3%;
 
-        .uploadFilesHeader {
-            letter-spacing: .11em;
-            text-transform: $upper_text;
+    text-align: left;
 
-            font-size: .7em;
+    border: 1px solid #cdcde5;
+    border-radius: 5px;
 
-            th {
-                padding-top: 31px;
-                padding-left: 44px;
-                font-weight: 800;
-            }
+    tr {
+        td {
+            padding-top: 22px;
+            padding-left: 44px;
         }
-        tr {
-            td {
-                padding-top: 22px;
-                padding-left: 44px;
-                .fa-file-text {
-                    padding-right: 20px;
-
-                    font-size: 1.15em;
-                }
-            }
-            &:last-child td {
-                padding-bottom: 30px;
-            }
+        &:last-child td {
+            padding-bottom: 30px;
         }
+    }
 
-        .button__remove {
-            margin-left: 12px;
-        }
+    .fa-file-text {
+        padding-right: 20px;
+
+        font-size: 1.15em;
+    }
+
+    .button__remove {
+        margin-left: 12px;
+    }
+}
+
+.uploadFilesHeader {
+    letter-spacing: .11em;
+    text-transform: $upper_text;
+
+    font-size: .7em;
+
+    th {
+        padding-top: 31px;
+        padding-left: 44px;
+
+        font-weight: 800;
     }
 }

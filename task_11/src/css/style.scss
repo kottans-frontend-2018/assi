@@ -1,87 +1,31 @@
 @import 'reset.scss';
 @import 'variables.scss';
+@import 'footer.scss';
+@import 'dribbleHeaderModule.scss';
+@import 'headerSection.scss';
+@import 'translateSection.scss';
+@import 'languageSection.scss';
+@import 'toneSection.scss';
+@import 'urgentSection.scss';
+@import 'signUpSection.scss';
+@import "wrapperContainer_content.scss";
+@import 'uploadSection.scss';
 
 .wrapperContainer {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 
-    background-color: #edeef3;
-    background-size: cover;
-
-    @import 'footer.scss';
-
-    .wrapperContainer_content {
-        width: 79.1%;
-        margin: 0 auto;
-
-        color: $content-color;
-
-        font-family: $font-stack;
-
-        @import 'dribbleHeaderModule.scss';
-
-        a {
-            color: inherit;
-        }
-
-        .button {
-            position: relative;
-
-            display: inline-block;
-
-            min-width: 100px;
-
-            cursor: pointer;
-            transition: all .2s;
-            text-align: center;
-            text-decoration: none;
-            letter-spacing: .14em;
-            text-transform: $upper_text;
-
-            color: inherit;
-            border: 1px solid #d9d8de;
-            border-radius: 5px;
-            outline: none;
-
-            font-size: .7em;
-            font-weight: $bold-weight;
-
-            &:hover {
-                color: $white-color;
-                border-color: $button-hover-borderColor;
-                background-color: $button-hover-bgColor;
-            }
-
-            .fa {
-                position: absolute;
-                top: 17px;
-                left: 33px;
-
-                display: inline-block;
-
-                font: normal normal normal 18px FontAwesome;
-            }
-        }
-
-        main {
-            border: 1px solid #cdcde5;
-            border-collapse: collapse;
-            border-radius: 5px;
-            background-color: $white-color;
-
-            @import "mainBlock.scss";
-
-            @import 'headerSection.scss';
-            @import 'uploadSection.scss';
-            @import 'languageSection.scss';
+  background-color: #edeef3;
+  background-size: cover;
+}
 
 
-            @import 'toneSection.scss';
-            @import 'urgentSection.scss';
-            @import 'signUpSection.scss';
-            @import 'translateSection.scss';
 
-        }
-    }
+main {
+  border: 1px solid #cdcde5;
+  border-collapse: collapse;
+  border-radius: 5px;
+  background-color: $white-color;
+  @import "mainBlock.scss";
 }

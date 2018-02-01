@@ -1,69 +1,65 @@
-@import "variables.scss";
+@import 'variables.scss';
 
 .translateSection {
     text-align: center;
+}
+.translateHeader {
+    display: inline-block;
 
-    .translateHeader {
-        display: inline-block;
+    margin-top: 105px;
+    padding-bottom: 12px;
 
-        margin-top: 105px;
-        padding-bottom: 12px;
+    letter-spacing: .171em;
+    text-transform: $upper_text;
 
-        letter-spacing: .171em;
-        text-transform: $upper_text;
+    border-bottom: 1px solid #cdcde5;
 
-        border-bottom: 1px solid #cdcde5;
+    font-size: 1.2em;
+}
 
-        font-size: 1.2em;
+.translateItems {
+    display: flex;
+
+    width: 85%;
+    margin: 72px auto 0;
+
+    justify-content: space-evenly;
+}
+
+.translateItem {
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 282px;
+    height: 202px;
+    margin-left: 2%;
+}
+.imageItem {
+    display: block;
+
+    width: 95px;
+    height: 105px;
+    margin-top: 26px;
+    margin-left: 88px;
+    &.websiteImageItem {
+        background: url(../img/website.png) no-repeat;
+        background-size: contain;
     }
-    .translateItems {
-        display: flex;
-
-        margin: 72px auto 0;
-
-        justify-content: space-evenly;
-        width: 85%;
-
-        .translateItemContainer {
-
-            .translateItem {
-                display: inline-block;
-
-                box-sizing: border-box;
-                width: 282px;
-                height: 202px;
-                margin-left: 2%;
-
-                .imageItem {
-                    display: block;
-
-                    width: 95px;
-                    height: 105px;
-                    margin-top: 26px;
-                    margin-left: 88px;
-                    &.websiteImageItem {
-                        background: url(../img/website.png) no-repeat;
-                        background-size: contain;
-                    }
-                    &.documentsImageItem {
-                        background: url(../img/documents.png) no-repeat;
-                        background-size: contain;
-                    }
-                    &.socialAccountImageItem {
-                        background: url(../img/social_account.png) no-repeat;
-                        background-size: contain;
-                    }
-                }
-                .itemDescription {
-                    display: block;
-
-                    margin-top: 18px;
-                    margin-left: -5px;
-
-                    letter-spacing: .04em;
-                    text-transform: capitalize;
-                }
-            }
-        }
+    &.documentsImageItem {
+        background: url(../img/documents.png) no-repeat;
+        background-size: contain;
     }
+    &.socialAccountImageItem {
+        background: url(../img/social_account.png) no-repeat;
+        background-size: contain;
+    }
+}
+.itemDescription {
+    display: block;
+
+    margin-top: 18px;
+    margin-left: -5px;
+
+    letter-spacing: .04em;
+    text-transform: capitalize;
 }
