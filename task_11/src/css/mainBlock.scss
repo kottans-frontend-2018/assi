@@ -15,7 +15,7 @@
   padding: 0;
   border: 0;
 }
-input[type=radio] + label {
+.visually-hidden + label {
   position: relative;
   border: 6px solid transparent;
   border-radius: 3%;
@@ -37,7 +37,7 @@ input[type=radio] + label {
   }
 }
 
-input[type=radio]:checked + label {
+.visually-hidden:checked + label {
   position: relative;
 
   border: 6px solid #76a7e1;
