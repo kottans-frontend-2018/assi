@@ -1,0 +1,35 @@
+footer {
+  display: grid;
+  height: 80px;
+  color: #fef1e0;
+  background-image: url(../../img/header-bg.jpg);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr; }
+  footer:hover {
+    color: #c29c5b; }
+  footer adress {
+    margin: 0 auto; }
+    footer adress .organization {
+      font-weight: 600; }
+    footer adress:first-child {
+      margin-left: 60px; }
+
+.phoneNumber {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fef1e0;
+  justify-items: center; }
+  .phoneNumber:hover {
+    color: #c29c5b;
+    transition: 500ms linear; }
+
+.copyright {
+  margin-right: 60px;
+  justify-self: end; }
+
+.copyrightSign {
+  font-weight: 300; }
+
+/*# sourceMappingURL=footer.css.map */

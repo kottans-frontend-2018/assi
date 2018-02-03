@@ -1,0 +1,25 @@
+header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+    grid-column: span 2;
+    order: 1;
+}
+
+.timeBlock {
+    margin-left: 0;
+
+    justify-self: center;
+    order: 2;
+}
+
+.logInBlock {
+    margin-right: 0;
+
+    justify-self: center;
+    order: 2;
+}

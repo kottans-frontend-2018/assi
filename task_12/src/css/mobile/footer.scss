@@ -1,0 +1,16 @@
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    grid-template-columns: 1fr;
+}
+.orgNameAndLocation {
+    margin-left: 0;
+
+    justify-self: center;
+}
+.copyright {
+    margin-right: 0;
+
+    justify-self: center;
+}

@@ -1,0 +1,49 @@
+@import '../variables.scss';
+
+footer {
+    display: grid;
+
+    height: 80px;
+
+    color: $text-color;
+    background-image: url(../img/header-bg.jpg);
+
+    font-family: $main-font;
+    font-size: 15px;
+
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    adress {
+        margin: 0 auto;
+    }
+}
+
+.phoneNumber {
+    cursor: pointer;
+    text-decoration: none;
+
+    color: $text-color;
+
+    justify-items: center;
+    &:hover {
+        transition: 500ms linear;
+
+        color: $hover-text-color;
+    }
+}
+
+.copyright {
+    margin-right: 60px;
+
+    justify-self: end;
+}
+.copyrightSign {
+    font-weight: 300;
+}
+.organization {
+    font-weight: 600;
+}
+.orgNameAndLocation {
+    margin-left: 60px;
+}

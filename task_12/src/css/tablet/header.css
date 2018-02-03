@@ -1,0 +1,8 @@
+header {
+  grid-template-columns: 1fr 1fr; }
+
+.logo {
+  grid-column: span 2;
+  order: 1; }
+
+/*# sourceMappingURL=header.css.map */

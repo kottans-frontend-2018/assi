@@ -1,0 +1,65 @@
+@import '../variables.scss';
+
+header {
+    display: grid;
+
+    width: 100%;
+
+    background-image: url(../img/header-bg.jpg);
+
+    font-size: 15px;
+
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.timeBlock {
+    margin-left: 60px;
+
+    cursor: pointer;
+    &:hover {
+        transition: 500ms linear;
+
+        color: $hover-text-color;
+    }
+}
+
+.logInBlock {
+    margin-right: 60px;
+
+    cursor: pointer;
+
+    justify-self: end;
+
+    &:hover {
+        transition: 500ms linear;
+
+        color: $hover-text-color;
+    }
+}
+
+.logo {
+    display: block;
+
+    cursor: pointer;
+
+    justify-self: center;
+}
+
+.logoImage {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    opacity: 1;
+
+    &:hover {
+        transition: 500ms linear;
+
+        opacity: .8;
+    }
+}
+
+.fa {
+    font-size: 18px;
+}
