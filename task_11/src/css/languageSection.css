@@ -1,0 +1,53 @@
+.languageSection {
+  margin-top: 110px;
+  margin-left: 136px; }
+  .languageSection .languageHeader {
+    margin-bottom: 54px; }
+  .languageSection .legend {
+    position: absolute;
+    top: 20px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600; }
+    .languageSection .legend.legendFor {
+      left: -56px; }
+    .languageSection .legend.legendTo {
+      left: -38px; }
+  .languageSection .languageSelectLabel:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 150px;
+    display: block;
+    content: '';
+    border: 1px solid #d9d8de; }
+  .languageSection .fa-caret-down {
+    position: absolute;
+    z-index: 2;
+    top: 18px;
+    left: 169px; }
+  .languageSection .languageSelect {
+    position: relative;
+    display: inline-block;
+    padding: 15px 86px 17px 52px;
+    cursor: pointer;
+    transition: all .2s;
+    color: inherit;
+    border: 1px solid #d9d8de;
+    border-radius: 5px;
+    outline: none;
+    background: #f7f7fa;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-appearance: none; }
+  .languageSection .selectBlock {
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 56px; }
+  .languageSection .selectBlock_group {
+    display: inline-block; }
+    .languageSection .selectBlock_group.selectBlock_group__add {
+      margin-left: 20px; }
+
+/*# sourceMappingURL=languageSection.css.map */
