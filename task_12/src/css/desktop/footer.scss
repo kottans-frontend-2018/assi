@@ -13,10 +13,6 @@ footer {
 
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-
-    adress {
-        margin: 0 auto;
-    }
 }
 
 .phoneNumber {
@@ -33,17 +29,18 @@ footer {
     }
 }
 
-.copyright {
+small {
     margin-right: 60px;
 
     justify-self: end;
 }
-.copyrightSign {
-    font-weight: 300;
-}
+
 .organization {
     font-weight: 600;
 }
 .orgNameAndLocation {
     margin-left: 60px;
+}
+.phoneNumber {
+    justify-self: center;
 }

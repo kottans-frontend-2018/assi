@@ -29,6 +29,12 @@ header {
 
     cursor: pointer;
 
+    color: $text-color;
+    border: none;
+    background-color: transparent;
+
+    font-size: inherit;
+
     justify-self: end;
 
     &:hover {
@@ -46,7 +52,7 @@ header {
     justify-self: center;
 }
 
-.logoImage {
+.logo__image {
     width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
