@@ -58,15 +58,14 @@ header {
   display: block;
   cursor: pointer;
   justify-self: center; }
-
-.logo__image {
-  width: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  opacity: 1; }
-  .logo__image:hover {
-    transition: 500ms linear;
-    opacity: .8; }
+  .logo img {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 1; }
+    .logo img:hover {
+      transition: 500ms linear;
+      opacity: .8; }
 
 .fa {
   font-size: 18px; }
