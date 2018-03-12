@@ -1,0 +1,267 @@
+.enterWeather {
+  display: inline-block;
+  width: 400px;
+  height: 32px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  padding: 3px 10px;
+  font-weight: 300;
+  border-radius: 4px; }
+
+.searchWeather__button {
+  display: inline-block;
+  background-color: #3775dd;
+  box-shadow: 0 2px #21487f;
+  border-color: transparent;
+  color: #fff;
+  font-size: 1em;
+  line-height: 32px;
+  margin-left: 5px;
+  margin-right: 0;
+  min-width: 92px;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  font-weight: 300;
+  outline: none;
+  box-sizing: content-box;
+  border-radius: 4px;
+  cursor: pointer;
+  vertical-align: top; }
+.currentCityWeather {
+  display: block;
+  text-align: center;
+  margin-top: 4%;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54); }
+  .currentCityWeather .currentCityName {
+    font-size: 3em;
+    font-weight: 400;
+    display: inline-block;
+    max-width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-wrap: break-word; }
+  .currentCityWeather .currentRegion {
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 1.7em; }
+  .currentCityWeather .currentDate {
+    display: block;
+    font-weight: 100;
+    font-size: 1em; }
+  .currentCityWeather .weatherDescription .weatherIcon {
+    vertical-align: bottom; }
+  .currentCityWeather .weatherDescription .description {
+    font-size: 1.6em;
+    font-weight: 400; }
+  .currentCityWeather .temperature {
+    display: inline-block;
+    font-weight: 100;
+    margin-top: 1em; }
+    .currentCityWeather .temperature .temperatureValue {
+      font-size: 7em; }
+    .currentCityWeather .temperature .degreeIcon {
+      vertical-align: top;
+      font-size: 7em; }
+  .currentCityWeather .unit-control {
+    display: inline-block;
+    margin-left: -2px;
+    cursor: pointer; }
+    .currentCityWeather .unit-control .measure {
+      border-color: transparent;
+      text-transform: capitalize;
+      background-color: transparent;
+      padding: 1px;
+      outline: none;
+      display: block;
+      font-size: 1.6em;
+      font-weight: 300;
+      color: #fff;
+      cursor: pointer; }
+    .currentCityWeather .unit-control .inactive {
+      color: #878c93; }
+@charset "UTF-8";
+.addFuncBlock {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.54);
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  vertical-align: top;
+  text-align: left;
+  height: 278px;
+  overflow: hidden; }
+  .addFuncBlock .titleFuncBlock {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+    font-size: 1.3em;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    line-height: 1.5em; }
+  .addFuncBlock .day {
+    display: block;
+    border: 0;
+    border-bottom: 1px rgba(255, 255, 255, 0.12) dotted;
+    font-size: 1em;
+    outline: 0;
+    padding-top: 2px;
+    padding-bottom: 2px; }
+  .addFuncBlock .byDays {
+    color: #fff; }
+    .addFuncBlock .byDays .nameOfTheDay {
+      display: inline-block;
+      vertical-align: middle;
+      width: 25%; }
+    .addFuncBlock .byDays .dayWeatherIcon {
+      display: inline-block;
+      text-align: center;
+      width: 25%; }
+    .addFuncBlock .byDays .humidity {
+      display: inline-block;
+      width: 22%; }
+      .addFuncBlock .byDays .humidity .humidityIcon {
+        width: 24px;
+        height: 24px; }
+      .addFuncBlock .byDays .humidity .humidityPercent {
+        display: inline-block;
+        margin: 5px;
+        font-size: 12px;
+        vertical-align: top; }
+    .addFuncBlock .byDays .temperatureContainer {
+      position: relative;
+      display: inline-block;
+      text-align: right; }
+      .addFuncBlock .byDays .temperatureContainer .dayMinTemp {
+        display: inline-block;
+        min-width: 30px; }
+        .addFuncBlock .byDays .temperatureContainer .dayMinTemp::after {
+          content: "\B0";
+          display: block;
+          position: absolute;
+          top: 0px;
+          right: 30px;
+          font-weight: 100; }
+      .addFuncBlock .byDays .temperatureContainer .dayMaxTemp {
+        position: relative;
+        display: inline-block;
+        padding-left: 10px;
+        min-width: 30px; }
+        .addFuncBlock .byDays .temperatureContainer .dayMaxTemp::after {
+          content: "\B0";
+          display: block;
+          position: absolute;
+          top: 0;
+          right: -10px;
+          font-weight: 100; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+body {
+  background-size: cover;
+  background-image: url(../images/stormy_clouds.jpg); }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+button {
+  opacity: 0.8; }
+
+button:hover {
+  opacity: 1; }
+
+.list {
+  border-bottom: 2px dotted rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+  white-space: nowrap;
+  height: 2.1em; }
+
+.cityForecast {
+  line-height: 2.1em; }
+
+.wrapper {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+  .wrapper .appsName {
+    transition: box-shadow .5s;
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.54);
+    text-align: center; }
+    .wrapper .appsName .title {
+      font-size: 2.2em;
+      color: #fff;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54);
+      line-height: 2em; }
+  .wrapper .searchContainer {
+    text-align: center;
+    margin-top: 4%; }
+    .wrapper .searchContainer .additionalBtn {
+      display: inline-block;
+      margin-right: 5px; }
+      .wrapper .searchContainer .additionalBtn .addFuncBtn {
+        background-color: rgba(0, 0, 0, 0.54);
+        border-width: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 4px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        vertical-align: middle;
+        outline: none;
+        max-height: 39px;
+        margin-right: 5px; }
+        .wrapper .searchContainer .additionalBtn .addFuncBtn.findLocation:disabled {
+          opacity: 0.3; }
+    .wrapper .searchContainer .searchInputWrapper {
+      display: inline-block; }
+  .wrapper .weatherInfo {
+    display: block; }
+  .wrapper .detailedInfo {
+    display: block;
+    text-align: center;
+    margin-top: 4%; }
+
+/*# sourceMappingURL=app.css.map*/
